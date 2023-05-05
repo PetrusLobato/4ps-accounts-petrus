@@ -1,4 +1,4 @@
-import kenzieB from '../../img/NuKenzieBlack.png';
+
 import './styleHeader.css';
 
 export default function Header({setEntrar}){
@@ -11,7 +11,7 @@ export default function Header({setEntrar}){
 
         <header>
             <div className='blocoHeader'>
-                <img src={kenzieB} alt="logo" />
+                <h1> 4Ps accounts</h1>
                 <button onClick={() => login()} className='sair' type="button">Inicio</button>
             </div>
         </header>

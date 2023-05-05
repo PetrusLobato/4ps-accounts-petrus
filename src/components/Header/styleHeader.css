@@ -17,6 +17,11 @@ header{
     align-items: center;
 }
 
+.blocoHeader > h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
 .sair{
     width: 64px;
     height: 40px;
